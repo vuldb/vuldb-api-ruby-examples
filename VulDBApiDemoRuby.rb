@@ -17,7 +17,7 @@ class VulDBApiDemo
   def self.run
     begin
       # API-URL
-      url = URI.parse("https://vuldb.com/?api")
+      url = URI.parse("https://vuldb.com/api")
 
       # Headers for authentication
       personal_api_key = "" # Enter your personal API key here.
